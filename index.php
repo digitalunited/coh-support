@@ -13,7 +13,8 @@ if (file_exists(__DIR__ . '/vendor/autoload.php')) {
     require __DIR__ . '/vendor/autoload.php';
 }
 
-DigitalUnited\Support\DashboardPage::listen_for_action();
+DigitalUnited\Support\Plugin::init();
+
 
 if( function_exists( 'register_activation_hook' )) {
  //   register_activation_hook( __FILE__, array('\DigitalUnited\Support\Plugin', 'plugin_activated'));

@@ -23,6 +23,7 @@
   },
   "require": {
     "nategood/httpful": "0.2.*",
-    "twbs/bootstrap":"3.2.*"
+    "twbs/bootstrap":"3.2.*",
+    "zendesk/zendesk_api_client_php": "dev-master"
   }
 }
