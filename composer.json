@@ -1,0 +1,28 @@
+{
+  "name": "digitalunited/coh-support",
+  "description": "Easy support mashup for sustainable customer relations.",
+  "keywords": ["wordpress", "plugin"],
+  "homepage": "https://github.com/digitalunited/coh-support",
+  "version": "0.1",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Andreas Ek",
+      "email": "andreas.ek@careofhaus.se",
+      "homepage": "http://www.careofhaus.io"
+    }
+  ],
+  "type": "wordpress-plugin",
+  "autoload"   : {
+    "psr-4": {
+      "DigitalUnited\\Support\\": "src/Support"
+    }
+  },
+  "repositories": {
+    "packagist": { "url": "https://packagist.org", "type": "composer" }
+  },
+  "require": {
+    "nategood/httpful": "0.2.*",
+    "twbs/bootstrap":"3.2.*"
+  }
+}
